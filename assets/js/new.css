@@ -1,0 +1,55 @@
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+   
+  }
+  
+  svg.radial-progress circle {
+    fill: rgba(0,0,0,0);   
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 10;
+  }
+  
+  .progress1 {
+    stroke: rgb(48,186, 231);
+  }
+
+  .progress2 {
+    stroke: rgb(216, 74, 130);
+  }
+
+  .progress3 {
+    stroke: rgb(21, 199, 168);
+   
+  }
+
+  .progress4 {
+    stroke: rgb(235, 125, 75);
+  }
+
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.radial-progress text {
+    stroke: rgb(57,57, 57);
+    fill:rgb(57, 57, 57);
+    text-anchor: middle;
+    font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+  }
+  .chart{
+      display: flex;
+      justify-content: space-around;
+  }
+.under{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    font-weight:bold;
+    font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+}
